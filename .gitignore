@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/BowlingCore/v15/Server/sqlite3
+/.vs/BowlingCore/v15
+/.vs/UnitTestTraining/v15
+/.vs
+/BowlingCore/bin/Debug/netcoreapp2.1
+/BowlingCore/obj
+/BowlingStandard/bin/Debug/netstandard2.0
+/BowlingStandard/obj
+/BowlingStandardTests/bin/Debug/netcoreapp2.1
+/BowlingStandardTests/obj
+
+/*.user
