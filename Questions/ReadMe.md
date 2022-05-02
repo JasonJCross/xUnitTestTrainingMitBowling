@@ -1,6 +1,6 @@
 # TODO: Create Unit Tests and find the problems with this code
 
-There is a few errors in the BowlingStandard App
+There are a few errors in the BowlingStandard App
 
 * Start creating baseline tests for [Balls.cs](https://github.com/JasonJCross/xUnitTestTrainingMitBowling/blob/main/Questions/BowlingStandard/Balls.cs)
 * Then create tests for [Frame.cs](https://github.com/JasonJCross/xUnitTestTrainingMitBowling/blob/main/Questions/BowlingStandard/Frame.cs)
