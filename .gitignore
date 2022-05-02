@@ -1,16 +1,17 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/.vs/BowlingCore/v15/Server/sqlite3
-/.vs/BowlingCore/v15
-/.vs/UnitTestTraining/v15
+﻿# dotNet Build
 /.vs
-/BowlingCore/bin/Debug/netcoreapp2.1
-/BowlingCore/obj
-/BowlingStandard/bin/Debug/netstandard2.0
-/BowlingStandard/obj
-/BowlingStandardTests/bin/Debug/netcoreapp2.1
-/BowlingStandardTests/obj
+/**/bin
+/**/obj
 
-/*.user
+# Visual Studio files
+*.user
+
+# VS Code Debug/Build
+/.vscode
+/hosts/SourceData.Api/Properties/launchSettings.json
+
+# Ignore Docker build items
+/out
+
+# Ignore test results
+/TestResults
