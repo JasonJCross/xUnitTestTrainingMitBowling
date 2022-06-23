@@ -18,8 +18,8 @@ jobs:
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore Answers\BowlingCore.sln
+      run: dotnet restore ./Answers/BowlingCore.sln
     - name: Build
-      run: dotnet build Answers\BowlingCore.sln --no-restore
+      run: dotnet build ./Answers/BowlingCore.sln --no-restore
     - name: Test
-      run: dotnet test Answers\BowlingCore.sln --no-build --verbosity normal
+      run: dotnet test ./Answers/BowlingCore.sln --no-build --verbosity normal
